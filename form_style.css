@@ -1,0 +1,61 @@
+body, html {
+    background-color: black;
+    color:white;
+    font-family:cursive;
+    margin: 0 auto;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh
+}
+/*
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    opacity:0.9;
+} */
+#i{
+	padding:16px;
+	font-family:arial;
+	/* margin:10px; */
+	margin-top: 20px;
+	background:none;
+}
+.container {
+	  width:250px;
+    padding:5px;
+    /* position: fixed; */
+    margin-top: 10px;
+    /* margin-left: 500px; */
+    flex-grow: 1;
+}
+input{
+	padding:10px;
+	margin:5px;
+	border-radius:5px;
+	border:none;
+}
+h1{
+	text-align:center;
+	background-color: orange;
+	color:white;
+	padding:10px;
+	border-radius: 10px;
+}
+input[type=submit],input[type=reset]{
+	background:red;
+	font-size: 16px;
+	cursor:pointer;
+	color:white;
+	font-weight:bold;
+}
+input[type=submit]:hover{
+	background:green;
+}
+input[type=reset]:hover{
+	background:purple;
+}
